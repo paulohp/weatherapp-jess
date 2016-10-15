@@ -33,7 +33,7 @@ gulp.task('generate-sw', function() {
       handler: 'networkFirst',
       options: {
         cache: {
-          name: 'weatherData-v5'
+          name: 'weatherData-v6'
         }
       }
     }]

@@ -83,7 +83,7 @@ function parse(e){for(var t,r=[],n=0,o=0,a="";null!=(t=PATH_REGEXP.exec(e));){va
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["/images/clear.png","e17de36d2c2ddf7b068892fa4678cd31"],["/images/cloudy-scattered-showers.png","855f638a52b7fbc1ec2a3d596fedbd28"],["/images/cloudy.png","6b2148e05e5fe4bf2a218438afcb6d3c"],["/images/cloudy_s_sunny.png","827577d4371bd0c83789fac7a2fe1546"],["/images/fog.png","44f56cff88530b5e3315890d6c209ac2"],["/images/ic_add_white_24px.svg","b09442e8f4b45894cf21566f0813453c"],["/images/ic_refresh_white_24px.svg","21e4c77a8b98c7516d6c7a97cdbddc22"],["/images/partly-cloudy.png","a2e10546a6f7000e1b7d5846ba492f9b"],["/images/rain.png","5a2600b1199d1c95da554a5f97861c04"],["/images/scattered-showers.png","ec178dbbcd45abb9db4be616801df3b0"],["/images/sleet.png","15ee1fe8d87a5b1ca604eb56729f3f08"],["/images/snow.png","6f9fa355f32b353a18a1dd3f89ac3fd7"],["/images/thunderstorm.png","c4df123a44c17a1b5d1e8b33b268ea5c"],["/images/wind.png","c1136285b55a50c206f0a96f64080767"],["/index.html","354487b505520d40e75c3cd3e82d7c0b"],["/scripts/app.js","b142e4605a9962691708b80492157172"],["/scripts/pouchdb.js","e43786eec3db015f3fd965e34fa3afa8"],["/styles/ud811.css","4206d8b20299f8f3c56a8b55773caa9b"]];
+var PrecacheConfig = [["/images/clear.png","e17de36d2c2ddf7b068892fa4678cd31"],["/images/cloudy-scattered-showers.png","855f638a52b7fbc1ec2a3d596fedbd28"],["/images/cloudy.png","6b2148e05e5fe4bf2a218438afcb6d3c"],["/images/cloudy_s_sunny.png","827577d4371bd0c83789fac7a2fe1546"],["/images/fog.png","44f56cff88530b5e3315890d6c209ac2"],["/images/ic_add_white_24px.svg","c3379830302abe84f64db87b5bac9faa"],["/images/ic_refresh_white_24px.svg","f73272d4efd233a85e8c649d26126f01"],["/images/partly-cloudy.png","a2e10546a6f7000e1b7d5846ba492f9b"],["/images/rain.png","5a2600b1199d1c95da554a5f97861c04"],["/images/scattered-showers.png","ec178dbbcd45abb9db4be616801df3b0"],["/images/sleet.png","15ee1fe8d87a5b1ca604eb56729f3f08"],["/images/snow.png","6f9fa355f32b353a18a1dd3f89ac3fd7"],["/images/thunderstorm.png","c4df123a44c17a1b5d1e8b33b268ea5c"],["/images/wind.png","c1136285b55a50c206f0a96f64080767"],["/index.html","1c0ea29b9bd00fe23efbf17a1071426d"],["/scripts/app.js","c345e03cd09dbf7047db6e67d192135e"],["/scripts/pouchdb.js","e7b60fed032f5137e2e5813d2c06f3a3"],["/styles/ud811.css","3435166fc2f1a5f20b894b19ea1cc9be"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1--' + (self.registration ? self.registration.scope : '') + '-';
 
@@ -310,7 +310,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/^https:\/\/weatherapi-146408\.appspot\.com/, toolbox.networkFirst, {"cache":{"name":"weatherData-v4"}});
+toolbox.router.get(/^https:\/\/weatherapi-146408\.appspot\.com/, toolbox.networkFirst, {"cache":{"name":"weatherData-v6"}});
 
 
 
